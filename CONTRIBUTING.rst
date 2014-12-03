@@ -1,5 +1,5 @@
 =============================================
-Contributing to: {{ cookiecutter.repo_name }}
+Contributing to: os-ansible-deployment-specs
 =============================================
 
 If you would like to contribute to the development of OpenStack,
@@ -18,4 +18,4 @@ Pull requests submitted through GitHub will be ignored.
 
 Bugs should be filed on Launchpad, not GitHub:
 
-   https://bugs.launchpad.net/{{ cookiecutter.project_name }}
+   https://bugs.launchpad.net/os-ansible-deployment

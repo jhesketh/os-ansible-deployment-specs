@@ -6,9 +6,10 @@ http://creativecommons.org/licenses/by/3.0/legalcode
 ..
   This template should be in ReSTructured text. The filename in the git
   repository should match the launchpad URL, for example a URL of
-  https://blueprints.launchpad.net/{{ cookiecutter.project_name }}/+spec/awesome-thing should be named
-  awesome-thing.rst .  Please do not delete any of the sections in this
-  template.  If you have nothing to say for a whole section, just write: None
+  https://blueprints.launchpad.net/os-ansible-deployment/+spec/awesome-thing
+  should be named awesome-thing.rst .  Please do not delete any of the sections
+  in this template.  If you have nothing to say for a whole section, just
+  write: None.
   For help with syntax, see http://sphinx-doc.org/rest.html
   To test out your formatting, see http://www.tele3.cz/jbar/rest/rest.html
 
@@ -18,7 +19,7 @@ http://creativecommons.org/licenses/by/3.0/legalcode
 
 Include the URL of your launchpad blueprint:
 
-https://blueprints.launchpad.net/{{ cookiecutter.projcet_name }}/+spec/example
+https://blueprints.launchpad.net/os-ansible-deployment/+spec/example
 
 Introduction paragraph -- why are we doing anything?
 
@@ -36,7 +37,7 @@ propose to solve this problem?
 If this is one part of a larger effort make it clear where this piece ends. In
 other words, what's the scope of this effort?
 
-Include where in the {{ cookiecutter.project_name }} tree hierarchy this will reside.
+Include where in the os-ansible-deployment tree hierarchy this will reside.
 
 Alternatives
 ------------
@@ -79,8 +80,9 @@ but we're mostly trying to understand the timeline for implementation.
 Dependencies
 ============
 
-- Include specific references to specs and/or blueprints in {{ cookiecutter.project_name }}, or in other
-  projects, that this one either depends on or is related to.
+- Include specific references to specs and/or blueprints in
+  os-ansible-deployment, or in other projects, that this one either depends on
+  or is related to.
 
 - Does this feature require any new library dependencies or code otherwise not
   included in OpenStack? Or does it depend on a specific version of library?
